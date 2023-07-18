@@ -1,4 +1,4 @@
-﻿using Exercito.Funcionario;
+﻿
 using Exercito_01.SistemaDeSeguranca;
 using System;
 using System.Collections.Generic;
@@ -8,14 +8,14 @@ using System.Threading.Tasks;
 
 namespace Exercito_01.UsuarioExterno
 {
-    public class DesenvolvedorInterno : IValidado
+    public class DesenvolvedorInterno
     {
-        public string Senha { get; set; }
+        public string Password { get; set; }
 
-        public bool Validar(string senha)
+        public bool Validar(string login, string password)
         {
-            return Senha == senha;
+            return
+            Password == password;
         }
-
     }
 }

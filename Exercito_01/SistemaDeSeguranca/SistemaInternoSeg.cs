@@ -12,9 +12,9 @@ namespace Exercito_01.SistemaDeSeguranca
     {
         public static int ContadorUsuario { get; private set; }
 
-        public bool Logar(IValidado funcionario, string senha)
+        public bool Logar(IValidado funcionario, string password)
         {
-            bool funcionarioValidado = funcionario.Validar(senha);
+            bool funcionarioValidado = funcionario.Validar(password);
 
             if (funcionarioValidado)
             {

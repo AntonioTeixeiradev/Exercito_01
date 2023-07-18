@@ -7,13 +7,14 @@ using System.Threading.Tasks;
 
 namespace Exercito_01.UsuarioExterno
 {
-    public class DesenvolvedorExterno : IValidado
+    public class DesenvolvedorExterno 
     {
         public string Senha { get; set; }
 
-        public bool Validar(string senha)
+        public bool Validar(string login, string senha)
         {
-            return Senha == senha;
+                return 
+                Senha == senha;
         }
     }
 

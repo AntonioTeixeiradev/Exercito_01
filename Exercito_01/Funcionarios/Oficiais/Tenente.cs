@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercito_01.Funcionario.Sargentos
+namespace Exercito_01.Funcionarios.Oficiais
 {
-    public class SegundoFurriel : Funcionario
+    public class Tenente : Funcionario
     {
-        public SegundoFurriel(string nim) : base(1111.76, nim)
+        public Tenente(string nim) : base(1928.89, nim)
         {
+
         }
     }
 }

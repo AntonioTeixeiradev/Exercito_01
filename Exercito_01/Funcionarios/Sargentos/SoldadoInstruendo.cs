@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercito_01.Funcionario.Sargentos
+namespace Exercito_01.Funcionarios.Sargentos
 {
     public class SoldadoInstruendo : Funcionario
     {

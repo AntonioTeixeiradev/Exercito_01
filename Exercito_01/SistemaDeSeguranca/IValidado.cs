@@ -8,6 +8,6 @@ namespace Exercito_01.SistemaDeSeguranca
 {
     public interface IValidado
     {
-        bool Validar(string senha);
+        bool Validar(string password);
     }
 }

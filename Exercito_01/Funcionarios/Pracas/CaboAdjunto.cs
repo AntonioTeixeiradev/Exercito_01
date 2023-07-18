@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercito_01.Funcionario.Pracas
+namespace Exercito_01.Funcionarios.Pracas
 {
-    public class PrimeiroCabo : Funcionario
+    public class CaboAdjunto : Funcionario
     {
-        public PrimeiroCabo(string nim) : base(1065.52, nim)
+        public CaboAdjunto(string nim) : base(1178.48, nim)
         {
 
         }
-
     }
 }
